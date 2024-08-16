@@ -53,7 +53,7 @@ https://www.nightfall.ai/ai-security-101/anthropic-claude-api-key
 
 ## How It Works
 
-ChessGPT combines a graphical chess interface with AI language models to create an intelligent chess opponent. Here's a brief overview of its functioning:
+ChessGPT combines a graphical chess interface with AI language models to create a not-so-intelligent chess opponent. Here's a brief overview of its functioning:
 
 1. **Chess Engine**: The program uses the `python-chess` library to manage the game state, validate moves, and check for game-ending conditions.
 
