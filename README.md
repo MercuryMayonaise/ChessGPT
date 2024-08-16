@@ -1,6 +1,6 @@
 # ChessGPT
 
-ChessGPT is a simple program that allows you to play chess against advanced AI models: ChatGPT-4o (the best model from OpenAI) and Claude 3.5 Sonnet (the best model from Anthropic).
+ChessGPT is a simple program that allows you to play chess against advanced AI models: ChatGPT-4o (the best model from OpenAI) and Claude 3.5 Sonnet (the best model from Anthropic). This is intended to showcase how AI models possess "narrow" intelligence and struggle to do non-writing tasks.
 
 ## Requirements
 
