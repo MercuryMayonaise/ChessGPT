@@ -51,6 +51,24 @@ https://www.nightfall.ai/ai-security-101/openai-api-key
 or
 https://www.nightfall.ai/ai-security-101/anthropic-claude-api-key
 
+## How It Works
+
+ChessGPT combines a graphical chess interface with AI language models to create an intelligent chess opponent. Here's a brief overview of its functioning:
+
+1. **Chess Engine**: The program uses the `python-chess` library to manage the game state, validate moves, and check for game-ending conditions.
+
+2. **GUI**: A graphical user interface is created using `tkinter`, allowing players to interact with the chess board visually.
+
+3. **AI Integration**: When it's the AI's turn to move, the program does the following:
+   - Converts the current board state to a FEN (Forsyth–Edwards Notation) string.
+   - Generates a list of all legal moves.
+   - Sends this information to the chosen AI model (ChatGPT or Claude) via their respective APIs.
+   - The AI model, acting as a chess grandmaster, decides on the best move and returns it in standard chess notation.
+   - The program then executes this move on the board.
+
+4. **Move Validation**: All moves, both from the player and the AI, are validated by the chess engine to ensure they follow the rules of chess.
+
+This approach allows the AI to make informed chess moves based on the current game state, creating a challenging and dynamic opponent for the player.
 ## Notes
 - Keep your API keys confidential and never share them publicly.
 - This program is for educational and entertainment purposes only.
